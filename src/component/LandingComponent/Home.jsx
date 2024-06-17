@@ -1,11 +1,12 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
+import heroImage from '../../assets/hero.png'
 
 const Home = () => {
   return (
     <>
-      <section className="w-full h-full">
-        <div className="grid sm:grid-cols-1 gap-10 ">
+      <section className="">
+        <div className="grid sm:grid-cols-1 sm:mt-20 mt-0 gap-10 ">
           <div className="grid sm:grid-cols-2 grid-cols-1">
             <div className="flex flex-col gap-10 place-content-center">
               <div className="">
@@ -39,7 +40,8 @@ const Home = () => {
 
             <div className="relative">
               <div className="">
-                <img width={500} src="https://coursespace.vercel.app/_next/image?url=%2Fimages%2Fhome-hero.jpg&w=828&q=75" alt="hero Image" />
+                <img className='bg-transperant' width={500} src={heroImage} alt="hero Image" />
+                {/* <img className='bg-transperant' width={500} src="https://coursespace.vercel.app/_next/image?url=%2Fimages%2Fhome-hero.jpg&w=828&q=75" alt="hero Image" /> */}
               </div>
             </div>
           </div>
