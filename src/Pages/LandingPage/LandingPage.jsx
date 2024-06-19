@@ -16,7 +16,7 @@ const LandingPage = () => {
 
     return (
         <>
-            <div className='h-screen w-screen flex flex-col'>
+            <div className='sm:h-screen sm:w-screen h-screen w-screen flex flex-col'>
 
                 {/* nav component  */}
                 <nav className="bg-white border-gray-50">

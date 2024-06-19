@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
-import heroImage from '../../assets/hero.png'
+import heroImage from '../../assets/hero02.jpeg'
 
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
           <div className="grid sm:grid-cols-2 grid-cols-1">
             <div className="flex flex-col gap-10 place-content-center">
               <div className="">
-                <h1 className="text-5xl font-bold px-8 capitalize">
+                <h1 className="text-5xl font-bold px-8 py-6 capitalize">
                   Improve your skill <br/>
                   with different way
                 </h1>
@@ -38,28 +38,27 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="relative">
+            <div className="relative py-6 sm:py-0 px-6">
               <div className="">
-                <img className='bg-transperant' width={500} src={heroImage} alt="hero Image" />
-                {/* <img className='bg-transperant' width={500} src="https://coursespace.vercel.app/_next/image?url=%2Fimages%2Fhome-hero.jpg&w=828&q=75" alt="hero Image" /> */}
+                <img className='rounded-xl' width={500} src={heroImage} alt="hero Image" /> 
               </div>
             </div>
           </div>
 
-          <div className="grid sm:grid-cols-4 gap-2 grid-cols-2 items-center px-4">
-            <div className="bg-white p-2 rounded-xl text-center shadow-xl border border-gray-200">
+          <div className="grid sm:grid-cols-4 gap-2 grid-cols-2 items-center px-4 py-4">
+            <div className="bg-white py-1 rounded-xl text-center shadow-xl border border-gray-200">
               <p className="text-3xl text-orange-500 font-semibold">1M+</p>
               <h4>Students</h4>
             </div>
-            <div className="bg-white p-2 rounded-xl text-center shadow-xl border border-gray-200">
+            <div className="bg-white py-1 rounded-xl text-center shadow-xl border border-gray-200">
               <p className="text-3xl text-orange-500 font-semibold">1+</p>
               <h4>Courses</h4>
             </div>
-            <div className="bg-white p-2 rounded-xl text-center shadow-xl border border-gray-200">
+            <div className="bg-white py-1 rounded-xl text-center shadow-xl border border-gray-200">
               <p className="text-3xl text-orange-500 font-semibold">1:1</p>
               <h4>Session</h4>
             </div>
-            <div className="bg-white p-2 rounded-xl text-center shadow-xl border border-gray-200">
+            <div className="bg-white py-1 rounded-xl text-center shadow-xl border border-gray-200">
               <p className="text-3xl text-orange-500 font-semibold">10+</p>
               <h4>Mentors</h4>
             </div>
