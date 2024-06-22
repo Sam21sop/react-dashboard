@@ -15,6 +15,9 @@ import Courses from './component/LandingComponent/Courses'
 import Testimonial from './component/LandingComponent/Testimonial'
 import Mentor from './component/LandingComponent/Mentor'
 import LandingPage from './Pages/LandingPage/LandingPage'
+import SettingPage from './Pages/SettingsPage/SettingPage'
+import HelpAndSupport from './Pages/HelpAndSupportPage/HelpAndSupport'
+import Logout from './component/UserComponents/Logout'
 
 
 
@@ -82,6 +85,18 @@ const App = () => {
         {
           path: 'orders',
           element: <OrderPage />
+        },
+        {
+          path:'settings',
+          element: <SettingPage/>
+        },
+        {
+          path:'supports',
+          element:<HelpAndSupport/>
+        },
+        {
+          path:'logout',
+          element:<Logout/>
         }
       ]
     }
