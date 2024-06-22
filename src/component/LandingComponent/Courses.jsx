@@ -47,16 +47,16 @@ const Courses = () => {
           <CourseCard slides={courseData} />
         </div>
 
-        <div class="relative max-w-[90%] mx-auto">
-          <button type="button" class="absolute left-0 py-10 flex  cursor-pointer px-4 ">
-            <span class="inline-flex h-8 w-8 bg-gray-900 items-center justify-center rounded-full bg-white/30  sm:h-10 sm:w-10 dark:bg-gray-800/30">
-              <svg class="h-5 w-5 text-white sm:h-6 sm:w-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+        <div className="relative max-w-[90%] mx-auto">
+          <button type="button" className="absolute left-0 py-10 flex  cursor-pointer px-4 ">
+            <span className="inline-flex h-8 w-8 bg-gray-900 items-center justify-center rounded-full bg-white/30  sm:h-10 sm:w-10 dark:bg-gray-800/30">
+              <svg className="h-5 w-5 text-white sm:h-6 sm:w-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
             </span>
           </button>
-          <button type="button" class="absolute right-0 py-10 flex cursor-pointer px-4 " >
-            <span class="inline-flex h-8 w-8 bg-gray-900 items-center justify-center rounded-full bg-white/30  sm:h-10 sm:w-10 dark:bg-gray-800/30">
-              <svg class="h-5 w-5 text-white sm:h-6 sm:w-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          <button type="button" className="absolute right-0 py-10 flex cursor-pointer px-4 " >
+            <span className="inline-flex h-8 w-8 bg-gray-900 items-center justify-center rounded-full bg-white/30  sm:h-10 sm:w-10 dark:bg-gray-800/30">
+              <svg className="h-5 w-5 text-white sm:h-6 sm:w-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
               </svg>
             </span>
           </button>
