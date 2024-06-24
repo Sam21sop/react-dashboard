@@ -55,10 +55,10 @@ export const SIDEBAR_BOTTOM_NAVIGATION_LINKS = [
         icon: <HiOutlineQuestionMarkCircle/>,
         path: '/react-dashboard/user/supports'
     },
-    {
-        key:'logout',
-        lable:"Logout",
-        icon:<HiOutlineArrowRightStartOnRectangle color="red"/>,
-        path:'/react-dashboard/user/logout'
-    }
+    // {
+    //     key:'logout',
+    //     lable:"Logout",
+    //     icon:<HiOutlineArrowRightStartOnRectangle color="red"/>,
+    //     path:'/react-dashboard/user/logout'
+    // }
 ]

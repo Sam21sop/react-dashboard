@@ -17,7 +17,7 @@ const Layout = () => {
                     <Sidebar />
 
                     {/* main section where all changes will reflected  */}
-                    <main>
+                    <main className='w-full h-full bg-gradient-to-br from-sky-200 to-yellow-100'>
                         <Outlet />
                     </main>
                 </div>

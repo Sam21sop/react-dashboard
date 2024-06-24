@@ -12,7 +12,7 @@ const ListingItems = (props) => {
                 key={navigation_item.key}
                 className={`
                                     ${pathname === navigation_item.path ?
-                        'flex font-medium px-3 py-1 items-center gap-2 bg-gray-500 rounded-sm text-white' :
+                        'flex font-medium px-3 py-1 items-center gap-2 bg-gray-400 rounded-sm text-white' :
                         'flex font-medium px-3 py-1 items-center gap-2'
                     }`
                 }
