@@ -27,7 +27,7 @@ const Register = () => {
                 type="text"
                 placeholder='username'
                 name='username'
-                className='rounded-md text-gray-800 p-2 border border-black shadow'
+                className='rounded-md text-gray-800 p-2 border border-gray-300 shadow'
                 onChange={(e) => setUsername(e.target.value)}
                 required
               />
@@ -38,7 +38,7 @@ const Register = () => {
                 type="email"
                 placeholder='email'
                 name='email'
-                className='px-3 py-2 rounded-md border border-black'
+                className='px-3 py-2 rounded-md border border-gray-300'
                 onChange={(e) => setEmail(e.target.value)}
                 required
               />
@@ -49,7 +49,7 @@ const Register = () => {
                 type="password"
                 placeholder='password'
                 name='password  '
-                className='px-3 py-2 rounded-md border border-black'
+                className='px-3 py-2 rounded-md border border-gray-300'
                 onChange={(e) => setPassword(e.target.value)}
                 required
               />

@@ -26,7 +26,7 @@ const Home = () => {
 
               <div className="px-6 flex gap-4">
                 <NavLink>
-                  <button className="text-xl font-semibold bg-gray-700 rounded-md hover:bg-gray-200 hover:text-black px-5 py-2 text-white animate-bounce hover:delay-5000">
+                  <button className="text-xl font-semibold bg-gray-700 rounded-md hover:bg-gray-200 hover:text-black px-5 py-2 text-white hover:delay-5000">
                     Get Started
                   </button>
                 </NavLink>
