@@ -1,8 +1,16 @@
 import React from 'react'
+import ProgressTracker from './ProgressTracker'
+// import ProgressTrackTable from './ProgressTrackTable'
 
 const DashboardPage = () => {
   return (
-    <div>DashboardPage</div>
+    <>
+      <section>
+        Dashboard Page
+        <ProgressTracker />
+        {/* <ProgressTrackTable/> */}
+      </section>
+    </>
   )
 }
 

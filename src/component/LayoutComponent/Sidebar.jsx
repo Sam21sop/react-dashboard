@@ -26,7 +26,7 @@ const Sidebar = () => {
                 <div className='flex-1'>
                     {
                         SIDEBAR_TOP_NAVIGATION_LINKS.map((navigation_item) => (
-                            <ListingItems navigation_item={navigation_item} />
+                            <ListingItems key={navigation_item.key} navigation_item={navigation_item} />
                         ))
                     }
                 </div>
@@ -35,7 +35,7 @@ const Sidebar = () => {
                 <div>
                     {
                         SIDEBAR_BOTTOM_NAVIGATION_LINKS.map((navigation_item) => (
-                            <ListingItems navigation_item={navigation_item} />
+                            <ListingItems key={navigation_item.key} navigation_item={navigation_item} />
                         ))
                     }
                     <div className='flex font-medium px-3 py-1 items-center gap-2'>
